@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+
+/* Animations for stretch goal */
+
+@keyframes highlight {
+    from {
+        background-color: white;
+
+    }
+    to {
+        background-color: #99b3ff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -79,6 +101,7 @@ p {
     align-items: flex-end;
     margin-top: 20px;
     margin-bottom: 40px;
+    
 }
 
 
@@ -88,6 +111,9 @@ p {
     font-size: 14px;
     text-decoration: none;
     color: black;
+    animation-name: highlight;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
 }
 
 .about {
@@ -113,6 +139,22 @@ p {
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
+
+.content-boxes .last-paragraph {
+    border: 2px solid black;
+    width: 130px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.bottom-paragraph {
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+
 
 
 
