@@ -90,6 +90,12 @@ p {
     color: black;
 }
 
+.about {
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.2;
+    border-bottom: 1px dashed black;
+}
 
 
 
