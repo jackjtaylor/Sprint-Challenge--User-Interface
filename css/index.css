@@ -81,12 +81,16 @@ p {
     margin-bottom: 40px;
 }
 
-.main-navbar a {
+
+
+.main-navbar nav a {
     padding: 0 50px 20px 30px;
     font-size: 14px;
     text-decoration: none;
     color: black;
 }
+
+
 
 
 
