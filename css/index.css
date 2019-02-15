@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.main-navbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main-navbar a {
+    padding: 0 50px 20px 30px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
